@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,900i&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Travel Blog</title>
+</head>
+
+<body>
+
+    <!-- start header -->
+
+    <header class="header">
+        <nav class="header__menu">
+            <div class="burger__menu">
+                <div class="burger__row"></div>
+                <div class="burger__row"></div>
+                <div class="burger__row"></div>
+            </div>
+            <ul class="header__menu-list">
+                <li class="header__menu-item"><a class="header__menu-link" href="#">home</a></li>
+                <li class="header__menu-item"><a class="header__menu-link" href="#">about me</a></li>
+                <li class="header__menu-item"><a class="header__menu-link" href="#">post</a></li>
+                <li class="header__menu-item"><a class="header__menu-link" href="#">style</a></li>
+                <li class="header__menu-item"><a class="header__menu-link" href="#">contact</a></li>
+            </ul>
+            <div class="search">
+                <form class="header__form">
+                    <input placeholder="S e a r c h" type="text">
+                    <button class="header__btn" type="submit"></button>
+                </form>
+            </div>
+        </nav>
+        <div class="header__logo">
+            <a href="#">
+                <h1>Travel Blog</h1>
+            </a>
+            <p>Blog Template</p>
+        </div>
+    </header>
+
+    <!-- end header -->
+    <!-- start slider -->
+
+    <section class="slider">
+        <div class="slider__inner">
+            <div class="slider__item">
+                <div class="slider__images" style="background-image: url(images/slider/slider-img1.jpg);">
+                    <div class="slider__info">
+                        <p class="slider__subtitle">
+                            Lifestyle
+                        </p>
+                        <div class="slider__title">
+                            Beyond The Land
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider__item">
+                <div class="slider__images" style="background-image: url(images/slider/slider-img2.jpg);">
+                    <div class="slider__info">
+                        <p class="slider__subtitle">
+                            Lifestyle
+                        </p>
+                        <div class="slider__title">
+                            Beyond The Land
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider__item">
+                <div class="slider__images" style="background-image: url(images/slider/slider-img3.jpg);">
+                    <div class="slider__info">
+                        <p class="slider__subtitle">
+                            Lifestyle
+                        </p>
+                        <div class="slider__title">
+                            Beyond The Land
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end slider -->
+    <!-- start articles -->
+
+    <section class="articles">
+        <div class="container">
+            <div class="articles__btn">
+                <button class="btn most" data-filter=".category-most">Most Recent</button>
+                <button class="btn popular" data-filter=".category-popular">Popular Post</button>
+                <div class="articles__category">
+                    <form class="articles__category-form">
+                        <select>
+                            <option class="form__item ">All Post</option>
+                            <option class="form__item mix category-popular">Old Post</option>
+                            <option class="form__item ">New Post</option>
+                        </select>
+                    </form>
+                </div>
+            </div>
+            <div class="articles__inner">
+                <div class="articles__post">
+                    <div class="articles__post-item mix category-popular">
+                        <div class="articles__post-img" style="background-image: url(images/post/post3.jpg);"></div>
+                        <div class="articles__post-info">
+                            <div class="articles__post-subtitle">
+                                Lifestyle
+                            </div>
+                            <div class="articles__post-title">
+                                End of the Ocean
+                            </div>
+                            <p class="articles__post-text">
+                                Ted fermentum sed felis ut eleifend. Integer laoreet massa sed leo rhoncus, non posuere
+                                eros varius. Sed congue ligula leo, in molestie mauris viverra quis. Ut a dui a lectus
+                                molestie pulvinar id non magna. Nam blandit dictum ante id venenatis.
+                            </p>
+                            <div class="articles__post-btn">
+                                <a href="#">Read More<i class="fas fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="articles__post-item mix category-popular">
+                        <div class="articles__post-img" style="background-image: url(images/post/post1.jpg);"></div>
+                        <div class="articles__post-info">
+                            <div class="articles__post-subtitle">
+                                Lifestyle
+                            </div>
+                            <div class="articles__post-title">
+                                End of the Ocean
+                            </div>
+                            <p class="articles__post-text">
+                                Ted fermentum sed felis ut eleifend. Integer laoreet massa sed leo rhoncus, non posuere
+                                eros varius. Sed congue ligula leo, in molestie mauris viverra quis. Ut a dui a lectus
+                                molestie pulvinar id non magna. Nam blandit dictum ante id venenatis.
+                            </p>
+                            <div class="articles__post-btn">
+                                <a href="#">Read More<i class="fas fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="articles__post-item mix category-most">
+                        <div class="articles__post-img" style="background-image: url(images/post/post2.jpg);"></div>
+                        <div class="articles__post-info">
+                            <div class="articles__post-subtitle">
+                                Lifestyle
+                            </div>
+                            <div class="articles__post-title">
+                                End of the Ocean
+                            </div>
+                            <p class="articles__post-text">
+                                Ted fermentum sed felis ut eleifend. Integer laoreet massa sed leo rhoncus, non posuere
+                                eros varius. Sed congue ligula leo, in molestie mauris viverra quis. Ut a dui a lectus
+                                molestie pulvinar id non magna. Nam blandit dictum ante id venenatis.
+                            </p>
+                            <div class="articles__post-btn">
+                                <a href="#">Read More<i class="fas fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="articles__btl-load">Load More</button>
+                </div>
+                <aside class="articles__aside">
+                    <div class="aside__inner">
+                        <div class="aside__item">
+                            <div class="aside__autor">
+                                <div class="aside__autor-img" style="  background-image: url(images/post/autor.png);">
+                                </div>
+                                <div class="aside__autor-name">Luis Faulkner</div>
+                                <div class="aside__autor-text">Ted fermentum sed felis ut eleifend. Integer laoreet
+                                    massa sed leo rhoncus, non posuere eros varius.</div>
+                                <div class="aside__autor-sign" style="background-image: url(images/post/sign.png);">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="aside__item">
+                            <div class="aside__category-title title">Categories</div>
+                            <ul class="aside__category">
+                                <li class="aside__category-item"><a class="aside__category-link" href="#">Travel</a></li>
+                                <li class="aside__category-item"><a class="aside__category-link" href="#">Food</a></li>
+                                <li class="aside__category-item"><a class="aside__category-link" href="#">Lifestyle</a></li>
+                                <li class="aside__category-item"><a class="aside__category-link" href="#">Health & Fintness</a></li>
+                                <li class="aside__category-item"><a class="aside__category-link" href="#">Minimalizam</a></li>
+                                <li class="aside__category-item"><a class="aside__category-link" href="#">Recipes</a></li>
+                                <li class="aside__category-item"><a class="aside__category-link" href="#">Review</a></li>
+                            </ul>
+                        </div>
+                        <div class="aside__item">
+                            <div class="aside__popular-title title">Popular Posts</div>
+                            <div class="aside__popular-box">
+                                <a class="aside__popular-img" href="#"
+                                    style="background-image: url(images/post/popular-post1.jpg);"></a>
+                                <div class="aside__popular-info">
+                                    <div class="aside__info-title">Sand Castle on the Beach</div>
+
+                                    <a href="#" class="aside__info-autor">by John Doe</a>
+                                </div>
+                            </div>
+                            <div class="aside__popular-box">
+                                <a class="aside__popular-img" href="#"
+                                    style="background-image: url(images/post/popular-post2.jpg);"></a>
+                                <div class="aside__popular-info">
+                                    <div class="aside__info-title">How To Visit Neuschwan
+                                        Castle By Train</div>
+
+                                    <a href="#" class="aside__info-autor">by Adam Rose</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="aside__item follow__items">
+                            <div class="aside__follow-title title">Follow @m_bondarenko<i
+                                    class="fas fa-camera-retro"></i></div>
+                            <div class="follow__inner">
+                                <a href="images/post/gallery/post1.jpg"><div class="follow__item-img"><img
+                                            class="follow__img" src="images/post/gallery/post1.jpg"
+                                            data-fancybox="images" alt=""></div></a>
+                             <a href="images/post/gallery/post2.jpg">   <div class="follow__item-img"><img
+                                            class="follow__img" src="images/post/gallery/post2.jpg"
+                                            data-fancybox="images" alt=""></div></a>
+                               <a href="images/post/gallery/post3.jpg"> <div class="follow__item-img"><img
+                                            class="follow__img" src="images/post/gallery/post3.jpg"
+                                            data-fancybox="images" alt=""></div></a>
+                               <a href="images/post/gallery/post4.jpg"> <div class="follow__item-img"><img
+                                            class="follow__img" src="images/post/gallery/post4.jpg"
+                                            data-fancybox="images" alt=""></div></a>
+                               <a href="images/post/gallery/post5.jpg"> <div class="follow__item-img"><img
+                                            class="follow__img" src="images/post/gallery/post5.jpg"
+                                            data-fancybox="images" alt=""></div></a>
+                               <a href="images/post/gallery/post6.jpg"> <div class="follow__item-img"><img
+                                            class="follow__img" src="images/post/gallery/post6.jpg" data-fancybox
+                                            alt=""></div></a>
+                            </div>
+                        </div>
+                </aside>
+            </div>
+    </section>
+
+    <!-- end articles -->
+    <!-- start footer -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__navigation">
+                <div class="footer__menu">
+                    <ul class="footer__menu-list">
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT ME</a></li>
+                        <li><a href="#">POST</a></li>
+                        <li><a href="#">STYLES</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+                <div class="footer__mail">
+                    <form class="footer__form">
+                        <input placeholder="Your Email..." type="text">
+                        <button class="footer__btn" type="submit"><i class="far fa-envelope"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer__contact">
+                <a class="mail" href="mailto:travel@gmail.com">travel@gmail.com</a>
+                <a class="tel" href="tel:(123) 456 789">(123) 456 789</a>
+            </div>
+            <div class="footer__copy">
+                <div class="footer__copy-text"><i class="far fa-copyright"></i> Copyrights 2017. Travelblog By
+                    VictorThemes</div>
+                <div class="footer__copy-solition">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- end footer -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
